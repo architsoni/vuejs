@@ -8,11 +8,11 @@
       <p>{{ age*3 }}</p>
 
       <h3>3. Call a function to output a random float between 0 and 1 (Math.random())</h3>
-      <p>{{ displayRandomFloat() }}</p>
+      <p>{{ randomFloat() }}</p>
 
        <h3>4. Search any image on Google and output it here by binding the "src" attribute</h3>
       <div>
-        <img v-bind:src="image" style="width:100px;height:100px"/>
+        <img v-bind:src="image"/>
       </div>
 
        <h3>5. Pre-Populate this input with your name (set the "value" attribute)</h3>
@@ -32,7 +32,7 @@ export default {
     };
   },
   methods: {
-    displayRandomFloat: function() {
+    randomFloat: function() {
       return Math.random();
     },
   },
