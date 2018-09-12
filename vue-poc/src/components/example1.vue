@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: 'Asoni',
+  name: 'example1',
   data() {
     return {
       msg: 'Archit Soni',
