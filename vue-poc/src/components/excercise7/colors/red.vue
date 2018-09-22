@@ -4,7 +4,7 @@
 
 <style scoped>
 div {
-  background-color: lightcoral;
+  background-color: red;
   padding: 40px;
   margin: 40px auto;
 }

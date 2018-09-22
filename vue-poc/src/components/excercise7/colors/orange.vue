@@ -6,7 +6,7 @@
 
 <style scoped>
 div {
-  background-color: lightsalmon;
+  background-color: orange;
   padding: 40px;
   margin: 40px auto;
 }
