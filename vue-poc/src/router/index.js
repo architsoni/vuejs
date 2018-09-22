@@ -9,6 +9,7 @@ import example5 from '@/components/example5';
 import example6 from '@/components/excercise6/example6';
 import example7 from '@/components/excercise7/example7';
 import example8 from '@/components/excercise8/example8';
+import example9 from '@/components/excercise9/example9';
 Vue.use(Router);
 
 export default new Router({
@@ -57,6 +58,11 @@ export default new Router({
       path: '/example8',
       name: 'example8',
       component: example8,
+    },
+    {
+      path: '/example9',
+      name: 'example9',
+      component: example9,
     },
   ],
 });
